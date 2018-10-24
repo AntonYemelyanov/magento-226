@@ -14,7 +14,7 @@
 
                 <block class="Magento\Framework\View\Element\Text" name="geekhub.label" as="geekhub_label">
                     <action method="setText">
-                        <argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="value" xsi:type="string">This text from block geekhub.label in footer.geekhub.container</argument>
+                        <argument  name="value" xsi:type="string">This text from block geekhub.label in footer.geekhub.container</argument>
                     </action>
                 </block>
 
