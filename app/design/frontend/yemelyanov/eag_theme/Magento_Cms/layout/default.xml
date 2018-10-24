@@ -5,7 +5,7 @@
         <referenceContainer name="footer.geekhub.container">
             <block class="Magento\Cms\Block\Block" name="geekhub.cms.block" before="geekhub_template_block">
                 <arguments>
-                    <argument name="block_id" xsi:type="string">geekhub_cms_block</argument>
+                    <argument name="block_id" xsi:type="string">promo_block_left</argument>
                 </arguments>
             </block>
         </referenceContainer>
