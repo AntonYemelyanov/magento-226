@@ -1,0 +1,36 @@
+[33mcommit 9d76990e53aae921c180c2031b3ce62dc4e217c0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Anton Yemelyanov <0404@i.ua>
+Date:   Mon Oct 22 15:20:21 2018 +0300
+
+    Creating  theme with my  photo as a logo
+
+[33mcommit 44d83017f05063c65728ac2068d0eea4376e1f9e[m
+Author: Anton Yemelyanov <0404@i.ua>
+Date:   Thu Oct 18 18:39:48 2018 +0300
+
+    eag readme
+
+[33mcommit 765fae70faa49315ece510b086d6789526c50547[m
+Merge: b61a12a b0cd5ca
+Author: Anton Yemelyanov <0404@i.ua>
+Date:   Thu Oct 18 00:00:54 2018 +0300
+
+    Merge branch 'master' of https://github.com/AntonYemelyanov/magento-226
+
+[33mcommit b61a12a6c1a0f9cfc8d63cafb1602c393bb2868d[m
+Author: Anton Yemelyanov <0404@i.ua>
+Date:   Wed Oct 17 23:17:00 2018 +0300
+
+    after install magento and sample data
+
+[33mcommit b0cd5ca1d698a4a8bea85683ef0cc8cbf81bb6a2[m
+Author: Anton Yemelyanov <0404@i.ua>
+Date:   Wed Oct 17 23:17:00 2018 +0300
+
+    after install magento an d sample data
+
+[33mcommit 6bec53538835bc41c3c508f2c5a0dc2fda3e97d4[m
+Author: aeroenergetic <0404@i.ua>
+Date:   Mon Oct 15 08:02:03 2018 +0300
+
+    Initial eag commit
