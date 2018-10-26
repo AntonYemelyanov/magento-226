@@ -10,8 +10,15 @@
 
 ?>
 <div class="block newsletter">
+
+
+
     <div class="title"><strong><?= $block->escapeHtml(__('Newsletter')) ?></strong></div>
+
+
+
     <div class="content">
+
         <form class="form subscribe"
               novalidate
               action="<?= $block->escapeUrl($block->getFormActionUrl()) ?>"
@@ -22,7 +29,7 @@
                 <label class="label" for="newsletter"><span><?= $block->escapeHtml(__('Sign Up for Our Newsletter:')) ?></span></label>
                 <div class="control">
                     <input name="email" type="email" id="newsletter"
-                           placeholder="<?= $block->escapeHtml(__('Enter your email address')) ?>"
+                           placeholder="<?= $block->escapeHtml(__('Subscribe to our news!')) ?>"
                            data-validate="{required:true, 'validate-email':true}"/>
                 </div>
             </div>
@@ -34,3 +41,4 @@
         </form>
     </div>
 </div>
+
