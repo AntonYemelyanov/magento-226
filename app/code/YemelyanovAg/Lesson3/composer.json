@@ -1,0 +1,19 @@
+{
+    "name": "YemelyanovAg/Lesson3",
+    "description": "YemelyanovAg_Lesson3",
+    "require": {
+        "php": "~7.0.13|~7.1.0",
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
