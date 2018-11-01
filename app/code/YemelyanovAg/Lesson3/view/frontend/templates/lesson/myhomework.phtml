@@ -2,11 +2,20 @@
 /** @var \Magento\Framework\View\Element\Template $block */
 ?>
 <div class="content-wrapper">
-    <h1>
-        <span>Your request was successfully</span>
-    </h1>
 
-    <a href="<?= $block->getGeneratedUrlToController() ?>">Link to JSON controller generated in CustomBlock</a>
+        <?php if ($block->getName()): ?>
+
+            <p>Name: <?= $block->getName() ?></p>
+
+        <?php endif; ?>
+        <?php if ($block->getLastname()): ?>
+
+            <p>Lastname: <?= $block->getLastname() ?></p>
+
+        <?php endif; ?>
+
+
+    <a href="<?= $block->getGeneratedUrlToController() ?>">Link to JSON controller</a>
 
 </div>
 

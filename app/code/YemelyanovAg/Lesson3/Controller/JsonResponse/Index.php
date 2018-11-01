@@ -8,9 +8,8 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        /** @var \Magento\Framework\Controller\Result\Json $controllerResult */
         $controllerResult = $this->resultFactory->create(ResultFactory::TYPE_JSON);
-        $data = ['content' => "What is Parent_Theme"];
+        $data = ['Default Router Is' => "It’s located in lib/internal/Magento/Framework/App/Router/DefaultRouter.php and it’s last in the routers loop. It’s used when every other router doesn’t match. In Magento 2 we can create custom handle for “Not found” page to display custom content."];
         return $controllerResult->setData($data);
     }
 }
