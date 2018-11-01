@@ -11,8 +11,8 @@
                        htmlClass="geethub-content"
                        after="-">
                 <block class="Magento\Framework\View\Element\Template"
-                       name="CustomBlock"
-                       as="CustomBlock.lesson"
+                       name="customblock"
+                       as="customblock.lesson"
                        template="YemelyanovAg_Lesson3::lesson/myhomework.phtml"/>
             </container>
         </referenceContainer>

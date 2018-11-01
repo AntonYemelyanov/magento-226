@@ -13,3 +13,17 @@ class Index extends \Magento\Framework\App\Action\Action
         $this->_view->renderLayout();
     }
 }
+
+
+
+
+
+  /*   {
+         $geethubText = "You're so a lucky man! This is really your Day";
+
+         $resultPage = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+         $resultPage->getLayout()->getBlock('custom.lesson.page.result')->setGeethubText($geethubText);
+         return $resultPage;
+     }
+
+   */
