@@ -6,16 +6,28 @@
     <body>
 
         <referenceContainer name="content">
-            <container name="geethub.lesson.layout"
+            <container name="showperson_container"
                        htmlTag="div"
-                       htmlClass="geethub-content"
+                       htmlClass="showperson_container"
                        after="-">
-                <block class="Magento\Framework\View\Element\Template"
-                       name="customblock"
-                       as="customblock.lesson"
+                <block class="YemelyanovAg\Lesson3\Block\CustomBlock"
+                       name="show_person"
+                       as="show_person"
                        template="YemelyanovAg_Lesson3::lesson/myhomework.phtml"/>
             </container>
         </referenceContainer>
     </body>
 </page>
 
+   <!--     <?xml version="1.0"?>
+
+<body>
+    <referenceContainer name="content">
+        <container name="showperson_wrapper" htmlClass="showperson_wrapper" htmlTag="div">
+            <block class="PalashAs\GhCustomModule\Block\CustomBlock" template="PalashAs_GhCustomModule::myhomework.phtml" name="show_person" />
+        </container>
+    </referenceContainer>
+</body>
+</page>
+
+-->
