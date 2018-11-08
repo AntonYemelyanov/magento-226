@@ -1,3 +1,9 @@
+/*
+Задание: Part1 (theme)
+Подключить font Gotham-regular, применить как основной для всего сайта
+ */
+
+//Declare custom fonts
 & when (@media-common = true) {
   .lib-font-face(
     @family-name:'Gotham-Regular',
@@ -7,5 +13,35 @@
   );
 }
 
+//  Fonts
+@font-family-name__base: 'Gotham-Regular';
+//Так как моя тема наследуется от темы Luma,я переназначаю переменную объявленную  в Luma в которую засэчен главный шрифт.
+///misc/apps/magento-226/vendor/magento/theme-frontend-luma/web/css/source/_variables.less
 
-@font-family__base: 'Gotham-Regular';
+
+/*
+Задание:Part1 (theme)
+Задизайнить primary-buttons:
+1) Изменить background-color - #9400D3
+2) border-color - #000080
+3) color - #fff для текста
+   */
+
+//eag_theme collors
+@eag-collor-purple:#9400D3;
+@eag-collor-dark-blue:#000080;
+//bonus (background hoover color. Not in homework)
+@eag-collor-purple-dark:#8000D3;
+
+// Primary button
+//Taken from:  lib/web/css/source/lib/variables/_buttons.less
+@button-primary__background: @eag-collor-purple;
+@button-primary__border: 1px solid @eag-collor-dark-blue;
+@button-primary__hover__border: 1px solid @eag-collor-dark-blue;
+
+//bonus (background hoover custom color.Not in homework)
+@button-primary__hover__background: @eag-collor-purple-dark;
+
+//Setting the text colors
+@button-primary__color:@color-white;
+@button-primary__hover__color:@color-white;
