@@ -7,13 +7,13 @@
                 <argument name="logo_img_height" xsi:type="number">200</argument>
             </arguments>
         </referenceBlock>
-                <referenceContainer name="sidebar.additional">
+        <referenceContainer name="sidebar.additional">
                     <block class="Magento\Cms\Block\Block" name="promo-block" as="promo-block">
                         <arguments>
                             <argument name="block_id" xsi:type="string">promo_block_left</argument>
                         </arguments>
                     </block>
-                </referenceContainer>
+        </referenceContainer>
     </body>
 </page>
 
