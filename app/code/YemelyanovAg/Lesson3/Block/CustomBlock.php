@@ -1,7 +1,5 @@
 <?php
 namespace YemelyanovAg\Lesson3\Block;
-
-
 class CustomBlock extends \Magento\Framework\View\Element\Template
 {
     public function getGeneratedUrlToController()
