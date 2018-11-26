@@ -2,8 +2,8 @@
 /** @var \Magento\Framework\View\Element\Template $block */
 ?>
 <div class="content-wrapper">
-        <?php if ($block->getName()): ?>
-            <p>Name: <?= $block->getName() ?></p>
+        <?php if ($block->getFirstName()): ?>
+            <p>FirstName: <?= $block->getFirstName() ?></p>
         <?php endif; ?>
         <?php if ($block->getLastname()): ?>
             <p>Lastname: <?= $block->getLastname() ?></p>

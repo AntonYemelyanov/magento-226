@@ -8,11 +8,8 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $this->_view->loadLayout();
-
-        $this->_view->getLayout()->getBlock('showperson')->setName('Anton');
+        $this->_view->getLayout()->getBlock('showperson')->setFirstName('Anton');
         $this->_view->getLayout()->getBlock('showperson')->setLastname('Yemelyanov');
-
-
         $this->_view->renderLayout();
     }
 }
