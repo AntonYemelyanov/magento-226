@@ -146,6 +146,7 @@ return [
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'YemelyanovAg_Lesson3' => 1,
-        'YemelyanovAg_Lesson4' => 1
+        'YemelyanovAg_Lesson4' => 1,
+        'YemelyanovAg_Lesson5' => 1
     ]
 ];
