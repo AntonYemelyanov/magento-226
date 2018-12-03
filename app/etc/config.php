@@ -147,6 +147,7 @@ return [
         'Vertex_Tax' => 1,
         'YemelyanovAg_Lesson3' => 1,
         'YemelyanovAg_Lesson4' => 1,
-        'YemelyanovAg_Lesson5' => 1
+        'YemelyanovAg_Lesson5' => 1,
+        'YemelyanovAg_Lesson6' => 1
     ]
 ];
