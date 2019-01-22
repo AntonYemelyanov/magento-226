@@ -1,0 +1,10 @@
+<?php if($block->getBlockId()): ?>
+    <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId($block->getBlockId())->toHtml();?>
+<?php endif; ?>
+
+<?php if ($block->getTitle()) : ?>
+       <a href="<?= $block->getUrl('geekhub-cms')?>"
+               class="action submit primary">
+                <?php echo $block->getTitle() ?>
+       </a>
+<?php endif; ?>
