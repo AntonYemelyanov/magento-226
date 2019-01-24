@@ -11,9 +11,11 @@ define(['jquery', 'uiComponent', 'ko', 'Magento_Catalog/js/model/rgb-model'], fu
             initialize: function () {
                 self = this;
                 this._super();
+                //call the incrementTime function to run on intialize
                 this.incrementTime();
                 this.subscribeToTime();
             },
+            //increment myTimer every second
             incrementTime: function() {
                 var t = 0;
                 setInterval(function() {
