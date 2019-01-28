@@ -1,5 +1,5 @@
 <?php if($block->getBlockId()): ?>
-    <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId($block->getBlockId())->toHtml();?>
+    <?php echo $block->getHomeBanner(); ?>
 <?php endif; ?>
 
 <?php if ($block->getTitle()) : ?>
